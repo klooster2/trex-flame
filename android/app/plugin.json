@@ -1,0 +1,1499 @@
+{
+    "targets": [
+        {
+            "name": "androidDependencies",
+            "group": "Android"
+        },
+        {
+            "name": "assemble",
+            "group": "build"
+        },
+        {
+            "name": "assembleAndroidTest",
+            "group": "build"
+        },
+        {
+            "name": "assembleDebug",
+            "group": "build"
+        },
+        {
+            "name": "assembleDebugAndroidTest",
+            "group": null
+        },
+        {
+            "name": "assembleDebugUnitTest",
+            "group": null
+        },
+        {
+            "name": "assembleDynamicProfile",
+            "group": "build"
+        },
+        {
+            "name": "assembleDynamicProfileUnitTest",
+            "group": null
+        },
+        {
+            "name": "assembleDynamicRelease",
+            "group": "build"
+        },
+        {
+            "name": "assembleDynamicReleaseUnitTest",
+            "group": null
+        },
+        {
+            "name": "assembleProfile",
+            "group": "build"
+        },
+        {
+            "name": "assembleProfileUnitTest",
+            "group": null
+        },
+        {
+            "name": "assembleRelease",
+            "group": "build"
+        },
+        {
+            "name": "assembleReleaseUnitTest",
+            "group": null
+        },
+        {
+            "name": "buildDependents",
+            "group": "build"
+        },
+        {
+            "name": "buildNeeded",
+            "group": "build"
+        },
+        {
+            "name": "bundleAppClassesDebug",
+            "group": null
+        },
+        {
+            "name": "bundleAppClassesDebugAndroidTest",
+            "group": null
+        },
+        {
+            "name": "bundleAppClassesDebugUnitTest",
+            "group": null
+        },
+        {
+            "name": "bundleAppClassesDynamicProfile",
+            "group": null
+        },
+        {
+            "name": "bundleAppClassesDynamicProfileUnitTest",
+            "group": null
+        },
+        {
+            "name": "bundleAppClassesDynamicRelease",
+            "group": null
+        },
+        {
+            "name": "bundleAppClassesDynamicReleaseUnitTest",
+            "group": null
+        },
+        {
+            "name": "bundleAppClassesProfile",
+            "group": null
+        },
+        {
+            "name": "bundleAppClassesProfileUnitTest",
+            "group": null
+        },
+        {
+            "name": "bundleAppClassesRelease",
+            "group": null
+        },
+        {
+            "name": "bundleAppClassesReleaseUnitTest",
+            "group": null
+        },
+        {
+            "name": "bundleDebugAndroidTestResources",
+            "group": null
+        },
+        {
+            "name": "bundleDebugResources",
+            "group": null
+        },
+        {
+            "name": "bundleDynamicProfileResources",
+            "group": null
+        },
+        {
+            "name": "bundleDynamicReleaseResources",
+            "group": null
+        },
+        {
+            "name": "bundleProfileResources",
+            "group": null
+        },
+        {
+            "name": "bundleReleaseResources",
+            "group": null
+        },
+        {
+            "name": "check",
+            "group": "verification"
+        },
+        {
+            "name": "checkDebugManifest",
+            "group": null
+        },
+        {
+            "name": "checkDynamicProfileManifest",
+            "group": null
+        },
+        {
+            "name": "checkDynamicReleaseManifest",
+            "group": null
+        },
+        {
+            "name": "checkProfileManifest",
+            "group": null
+        },
+        {
+            "name": "checkReleaseManifest",
+            "group": null
+        },
+        {
+            "name": "clean",
+            "group": "build"
+        },
+        {
+            "name": "cleanBuildCache",
+            "group": "build"
+        },
+        {
+            "name": "codemagicPlugin",
+            "group": "CodemagicPlugin"
+        },
+        {
+            "name": "compileDebugAidl",
+            "group": null
+        },
+        {
+            "name": "compileDebugAndroidTestAidl",
+            "group": null
+        },
+        {
+            "name": "compileDebugAndroidTestJavaWithJavac",
+            "group": null
+        },
+        {
+            "name": "compileDebugAndroidTestNdk",
+            "group": null
+        },
+        {
+            "name": "compileDebugAndroidTestRenderscript",
+            "group": null
+        },
+        {
+            "name": "compileDebugAndroidTestShaders",
+            "group": null
+        },
+        {
+            "name": "compileDebugAndroidTestSources",
+            "group": "build"
+        },
+        {
+            "name": "compileDebugJavaWithJavac",
+            "group": null
+        },
+        {
+            "name": "compileDebugNdk",
+            "group": null
+        },
+        {
+            "name": "compileDebugRenderscript",
+            "group": null
+        },
+        {
+            "name": "compileDebugShaders",
+            "group": null
+        },
+        {
+            "name": "compileDebugSources",
+            "group": "build"
+        },
+        {
+            "name": "compileDebugUnitTestJavaWithJavac",
+            "group": null
+        },
+        {
+            "name": "compileDebugUnitTestSources",
+            "group": "build"
+        },
+        {
+            "name": "compileDynamicProfileAidl",
+            "group": null
+        },
+        {
+            "name": "compileDynamicProfileJavaWithJavac",
+            "group": null
+        },
+        {
+            "name": "compileDynamicProfileNdk",
+            "group": null
+        },
+        {
+            "name": "compileDynamicProfileRenderscript",
+            "group": null
+        },
+        {
+            "name": "compileDynamicProfileShaders",
+            "group": null
+        },
+        {
+            "name": "compileDynamicProfileSources",
+            "group": "build"
+        },
+        {
+            "name": "compileDynamicProfileUnitTestJavaWithJavac",
+            "group": null
+        },
+        {
+            "name": "compileDynamicProfileUnitTestSources",
+            "group": "build"
+        },
+        {
+            "name": "compileDynamicReleaseAidl",
+            "group": null
+        },
+        {
+            "name": "compileDynamicReleaseJavaWithJavac",
+            "group": null
+        },
+        {
+            "name": "compileDynamicReleaseNdk",
+            "group": null
+        },
+        {
+            "name": "compileDynamicReleaseRenderscript",
+            "group": null
+        },
+        {
+            "name": "compileDynamicReleaseShaders",
+            "group": null
+        },
+        {
+            "name": "compileDynamicReleaseSources",
+            "group": "build"
+        },
+        {
+            "name": "compileDynamicReleaseUnitTestJavaWithJavac",
+            "group": null
+        },
+        {
+            "name": "compileDynamicReleaseUnitTestSources",
+            "group": "build"
+        },
+        {
+            "name": "compileLint",
+            "group": null
+        },
+        {
+            "name": "compileProfileAidl",
+            "group": null
+        },
+        {
+            "name": "compileProfileJavaWithJavac",
+            "group": null
+        },
+        {
+            "name": "compileProfileNdk",
+            "group": null
+        },
+        {
+            "name": "compileProfileRenderscript",
+            "group": null
+        },
+        {
+            "name": "compileProfileShaders",
+            "group": null
+        },
+        {
+            "name": "compileProfileSources",
+            "group": "build"
+        },
+        {
+            "name": "compileProfileUnitTestJavaWithJavac",
+            "group": null
+        },
+        {
+            "name": "compileProfileUnitTestSources",
+            "group": "build"
+        },
+        {
+            "name": "compileReleaseAidl",
+            "group": null
+        },
+        {
+            "name": "compileReleaseJavaWithJavac",
+            "group": null
+        },
+        {
+            "name": "compileReleaseNdk",
+            "group": null
+        },
+        {
+            "name": "compileReleaseRenderscript",
+            "group": null
+        },
+        {
+            "name": "compileReleaseShaders",
+            "group": null
+        },
+        {
+            "name": "compileReleaseSources",
+            "group": "build"
+        },
+        {
+            "name": "compileReleaseUnitTestJavaWithJavac",
+            "group": null
+        },
+        {
+            "name": "compileReleaseUnitTestSources",
+            "group": "build"
+        },
+        {
+            "name": "connectedAndroidTest",
+            "group": "verification"
+        },
+        {
+            "name": "connectedCheck",
+            "group": "verification"
+        },
+        {
+            "name": "connectedDebugAndroidTest",
+            "group": "verification"
+        },
+        {
+            "name": "consumeConfigAttr",
+            "group": null
+        },
+        {
+            "name": "copyFlutterAssetsDebug",
+            "group": null
+        },
+        {
+            "name": "copyFlutterAssetsDynamicProfile",
+            "group": null
+        },
+        {
+            "name": "copyFlutterAssetsDynamicRelease",
+            "group": null
+        },
+        {
+            "name": "copyFlutterAssetsProfile",
+            "group": null
+        },
+        {
+            "name": "copyFlutterAssetsRelease",
+            "group": null
+        },
+        {
+            "name": "createDebugCompatibleScreenManifests",
+            "group": null
+        },
+        {
+            "name": "createDynamicProfileCompatibleScreenManifests",
+            "group": null
+        },
+        {
+            "name": "createDynamicReleaseCompatibleScreenManifests",
+            "group": null
+        },
+        {
+            "name": "createProfileCompatibleScreenManifests",
+            "group": null
+        },
+        {
+            "name": "createReleaseCompatibleScreenManifests",
+            "group": null
+        },
+        {
+            "name": "deviceAndroidTest",
+            "group": "verification"
+        },
+        {
+            "name": "deviceCheck",
+            "group": "verification"
+        },
+        {
+            "name": "extractProguardFiles",
+            "group": null
+        },
+        {
+            "name": "extractTryWithResourcesSupportJarDebug",
+            "group": null
+        },
+        {
+            "name": "extractTryWithResourcesSupportJarDynamicProfile",
+            "group": null
+        },
+        {
+            "name": "extractTryWithResourcesSupportJarDynamicRelease",
+            "group": null
+        },
+        {
+            "name": "extractTryWithResourcesSupportJarProfile",
+            "group": null
+        },
+        {
+            "name": "extractTryWithResourcesSupportJarRelease",
+            "group": null
+        },
+        {
+            "name": "flutterBuildDebug",
+            "group": null
+        },
+        {
+            "name": "flutterBuildDynamicProfile",
+            "group": null
+        },
+        {
+            "name": "flutterBuildDynamicRelease",
+            "group": null
+        },
+        {
+            "name": "flutterBuildProfile",
+            "group": null
+        },
+        {
+            "name": "flutterBuildRelease",
+            "group": null
+        },
+        {
+            "name": "flutterBuildX86Jar",
+            "group": null
+        },
+        {
+            "name": "generateDebugAndroidTestAssets",
+            "group": null
+        },
+        {
+            "name": "generateDebugAndroidTestBuildConfig",
+            "group": null
+        },
+        {
+            "name": "generateDebugAndroidTestResValues",
+            "group": null
+        },
+        {
+            "name": "generateDebugAndroidTestResources",
+            "group": null
+        },
+        {
+            "name": "generateDebugAndroidTestSources",
+            "group": null
+        },
+        {
+            "name": "generateDebugAssets",
+            "group": null
+        },
+        {
+            "name": "generateDebugBuildConfig",
+            "group": null
+        },
+        {
+            "name": "generateDebugResValues",
+            "group": null
+        },
+        {
+            "name": "generateDebugResources",
+            "group": null
+        },
+        {
+            "name": "generateDebugSources",
+            "group": null
+        },
+        {
+            "name": "generateDynamicProfileAssets",
+            "group": null
+        },
+        {
+            "name": "generateDynamicProfileBuildConfig",
+            "group": null
+        },
+        {
+            "name": "generateDynamicProfileResValues",
+            "group": null
+        },
+        {
+            "name": "generateDynamicProfileResources",
+            "group": null
+        },
+        {
+            "name": "generateDynamicProfileSources",
+            "group": null
+        },
+        {
+            "name": "generateDynamicReleaseAssets",
+            "group": null
+        },
+        {
+            "name": "generateDynamicReleaseBuildConfig",
+            "group": null
+        },
+        {
+            "name": "generateDynamicReleaseResValues",
+            "group": null
+        },
+        {
+            "name": "generateDynamicReleaseResources",
+            "group": null
+        },
+        {
+            "name": "generateDynamicReleaseSources",
+            "group": null
+        },
+        {
+            "name": "generateProfileAssets",
+            "group": null
+        },
+        {
+            "name": "generateProfileBuildConfig",
+            "group": null
+        },
+        {
+            "name": "generateProfileResValues",
+            "group": null
+        },
+        {
+            "name": "generateProfileResources",
+            "group": null
+        },
+        {
+            "name": "generateProfileSources",
+            "group": null
+        },
+        {
+            "name": "generateReleaseAssets",
+            "group": null
+        },
+        {
+            "name": "generateReleaseBuildConfig",
+            "group": null
+        },
+        {
+            "name": "generateReleaseResValues",
+            "group": null
+        },
+        {
+            "name": "generateReleaseResources",
+            "group": null
+        },
+        {
+            "name": "generateReleaseSources",
+            "group": null
+        },
+        {
+            "name": "installDebug",
+            "group": "Install"
+        },
+        {
+            "name": "installDebugAndroidTest",
+            "group": "Install"
+        },
+        {
+            "name": "installDynamicProfile",
+            "group": "Install"
+        },
+        {
+            "name": "installDynamicRelease",
+            "group": "Install"
+        },
+        {
+            "name": "installProfile",
+            "group": "Install"
+        },
+        {
+            "name": "installRelease",
+            "group": "Install"
+        },
+        {
+            "name": "javaPreCompileDebug",
+            "group": null
+        },
+        {
+            "name": "javaPreCompileDebugAndroidTest",
+            "group": null
+        },
+        {
+            "name": "javaPreCompileDebugUnitTest",
+            "group": null
+        },
+        {
+            "name": "javaPreCompileDynamicProfile",
+            "group": null
+        },
+        {
+            "name": "javaPreCompileDynamicProfileUnitTest",
+            "group": null
+        },
+        {
+            "name": "javaPreCompileDynamicRelease",
+            "group": null
+        },
+        {
+            "name": "javaPreCompileDynamicReleaseUnitTest",
+            "group": null
+        },
+        {
+            "name": "javaPreCompileProfile",
+            "group": null
+        },
+        {
+            "name": "javaPreCompileProfileUnitTest",
+            "group": null
+        },
+        {
+            "name": "javaPreCompileRelease",
+            "group": null
+        },
+        {
+            "name": "javaPreCompileReleaseUnitTest",
+            "group": null
+        },
+        {
+            "name": "lint",
+            "group": "verification"
+        },
+        {
+            "name": "lintDebug",
+            "group": "verification"
+        },
+        {
+            "name": "lintDynamicProfile",
+            "group": "verification"
+        },
+        {
+            "name": "lintDynamicRelease",
+            "group": "verification"
+        },
+        {
+            "name": "lintProfile",
+            "group": "verification"
+        },
+        {
+            "name": "lintRelease",
+            "group": "verification"
+        },
+        {
+            "name": "lintVitalRelease",
+            "group": "verification"
+        },
+        {
+            "name": "mainApkListPersistenceDebug",
+            "group": null
+        },
+        {
+            "name": "mainApkListPersistenceDebugAndroidTest",
+            "group": null
+        },
+        {
+            "name": "mainApkListPersistenceDynamicProfile",
+            "group": null
+        },
+        {
+            "name": "mainApkListPersistenceDynamicRelease",
+            "group": null
+        },
+        {
+            "name": "mainApkListPersistenceProfile",
+            "group": null
+        },
+        {
+            "name": "mainApkListPersistenceRelease",
+            "group": null
+        },
+        {
+            "name": "mergeDebugAndroidTestAssets",
+            "group": null
+        },
+        {
+            "name": "mergeDebugAndroidTestJniLibFolders",
+            "group": null
+        },
+        {
+            "name": "mergeDebugAndroidTestResources",
+            "group": null
+        },
+        {
+            "name": "mergeDebugAndroidTestShaders",
+            "group": null
+        },
+        {
+            "name": "mergeDebugAssets",
+            "group": null
+        },
+        {
+            "name": "mergeDebugJniLibFolders",
+            "group": null
+        },
+        {
+            "name": "mergeDebugResources",
+            "group": null
+        },
+        {
+            "name": "mergeDebugShaders",
+            "group": null
+        },
+        {
+            "name": "mergeDynamicProfileAssets",
+            "group": null
+        },
+        {
+            "name": "mergeDynamicProfileJniLibFolders",
+            "group": null
+        },
+        {
+            "name": "mergeDynamicProfileResources",
+            "group": null
+        },
+        {
+            "name": "mergeDynamicProfileShaders",
+            "group": null
+        },
+        {
+            "name": "mergeDynamicReleaseAssets",
+            "group": null
+        },
+        {
+            "name": "mergeDynamicReleaseJniLibFolders",
+            "group": null
+        },
+        {
+            "name": "mergeDynamicReleaseResources",
+            "group": null
+        },
+        {
+            "name": "mergeDynamicReleaseShaders",
+            "group": null
+        },
+        {
+            "name": "mergeProfileAssets",
+            "group": null
+        },
+        {
+            "name": "mergeProfileJniLibFolders",
+            "group": null
+        },
+        {
+            "name": "mergeProfileResources",
+            "group": null
+        },
+        {
+            "name": "mergeProfileShaders",
+            "group": null
+        },
+        {
+            "name": "mergeReleaseAssets",
+            "group": null
+        },
+        {
+            "name": "mergeReleaseJniLibFolders",
+            "group": null
+        },
+        {
+            "name": "mergeReleaseResources",
+            "group": null
+        },
+        {
+            "name": "mergeReleaseShaders",
+            "group": null
+        },
+        {
+            "name": "mockableAndroidJar",
+            "group": "build"
+        },
+        {
+            "name": "packageDebug",
+            "group": null
+        },
+        {
+            "name": "packageDebugAndroidTest",
+            "group": null
+        },
+        {
+            "name": "packageDynamicProfile",
+            "group": null
+        },
+        {
+            "name": "packageDynamicRelease",
+            "group": null
+        },
+        {
+            "name": "packageProfile",
+            "group": null
+        },
+        {
+            "name": "packageRelease",
+            "group": null
+        },
+        {
+            "name": "platformAttrExtractor",
+            "group": null
+        },
+        {
+            "name": "preBuild",
+            "group": null
+        },
+        {
+            "name": "preDebugAndroidTestBuild",
+            "group": null
+        },
+        {
+            "name": "preDebugBuild",
+            "group": null
+        },
+        {
+            "name": "preDebugUnitTestBuild",
+            "group": null
+        },
+        {
+            "name": "preDynamicProfileBuild",
+            "group": null
+        },
+        {
+            "name": "preDynamicProfileUnitTestBuild",
+            "group": null
+        },
+        {
+            "name": "preDynamicReleaseBuild",
+            "group": null
+        },
+        {
+            "name": "preDynamicReleaseUnitTestBuild",
+            "group": null
+        },
+        {
+            "name": "preProfileBuild",
+            "group": null
+        },
+        {
+            "name": "preProfileUnitTestBuild",
+            "group": null
+        },
+        {
+            "name": "preReleaseBuild",
+            "group": null
+        },
+        {
+            "name": "preReleaseUnitTestBuild",
+            "group": null
+        },
+        {
+            "name": "prepareLintJar",
+            "group": null
+        },
+        {
+            "name": "preparePUBLISHED_DEXDebugAndroidTestForPublishing",
+            "group": null
+        },
+        {
+            "name": "preparePUBLISHED_DEXDebugForPublishing",
+            "group": null
+        },
+        {
+            "name": "preparePUBLISHED_DEXDynamicProfileForPublishing",
+            "group": null
+        },
+        {
+            "name": "preparePUBLISHED_DEXDynamicReleaseForPublishing",
+            "group": null
+        },
+        {
+            "name": "preparePUBLISHED_DEXProfileForPublishing",
+            "group": null
+        },
+        {
+            "name": "preparePUBLISHED_DEXReleaseForPublishing",
+            "group": null
+        },
+        {
+            "name": "preparePUBLISHED_JAVA_RESDebugAndroidTestForPublishing",
+            "group": null
+        },
+        {
+            "name": "preparePUBLISHED_JAVA_RESDebugForPublishing",
+            "group": null
+        },
+        {
+            "name": "preparePUBLISHED_JAVA_RESDynamicProfileForPublishing",
+            "group": null
+        },
+        {
+            "name": "preparePUBLISHED_JAVA_RESDynamicReleaseForPublishing",
+            "group": null
+        },
+        {
+            "name": "preparePUBLISHED_JAVA_RESProfileForPublishing",
+            "group": null
+        },
+        {
+            "name": "preparePUBLISHED_JAVA_RESReleaseForPublishing",
+            "group": null
+        },
+        {
+            "name": "preparePUBLISHED_NATIVE_LIBSDebugAndroidTestForPublishing",
+            "group": null
+        },
+        {
+            "name": "preparePUBLISHED_NATIVE_LIBSDebugForPublishing",
+            "group": null
+        },
+        {
+            "name": "preparePUBLISHED_NATIVE_LIBSDynamicProfileForPublishing",
+            "group": null
+        },
+        {
+            "name": "preparePUBLISHED_NATIVE_LIBSDynamicReleaseForPublishing",
+            "group": null
+        },
+        {
+            "name": "preparePUBLISHED_NATIVE_LIBSProfileForPublishing",
+            "group": null
+        },
+        {
+            "name": "preparePUBLISHED_NATIVE_LIBSReleaseForPublishing",
+            "group": null
+        },
+        {
+            "name": "processDebugAndroidTestJavaRes",
+            "group": null
+        },
+        {
+            "name": "processDebugAndroidTestManifest",
+            "group": null
+        },
+        {
+            "name": "processDebugAndroidTestResources",
+            "group": null
+        },
+        {
+            "name": "processDebugJavaRes",
+            "group": null
+        },
+        {
+            "name": "processDebugManifest",
+            "group": null
+        },
+        {
+            "name": "processDebugResources",
+            "group": null
+        },
+        {
+            "name": "processDebugUnitTestJavaRes",
+            "group": null
+        },
+        {
+            "name": "processDynamicProfileJavaRes",
+            "group": null
+        },
+        {
+            "name": "processDynamicProfileManifest",
+            "group": null
+        },
+        {
+            "name": "processDynamicProfileResources",
+            "group": null
+        },
+        {
+            "name": "processDynamicProfileUnitTestJavaRes",
+            "group": null
+        },
+        {
+            "name": "processDynamicReleaseJavaRes",
+            "group": null
+        },
+        {
+            "name": "processDynamicReleaseManifest",
+            "group": null
+        },
+        {
+            "name": "processDynamicReleaseResources",
+            "group": null
+        },
+        {
+            "name": "processDynamicReleaseUnitTestJavaRes",
+            "group": null
+        },
+        {
+            "name": "processProfileJavaRes",
+            "group": null
+        },
+        {
+            "name": "processProfileManifest",
+            "group": null
+        },
+        {
+            "name": "processProfileResources",
+            "group": null
+        },
+        {
+            "name": "processProfileUnitTestJavaRes",
+            "group": null
+        },
+        {
+            "name": "processReleaseJavaRes",
+            "group": null
+        },
+        {
+            "name": "processReleaseManifest",
+            "group": null
+        },
+        {
+            "name": "processReleaseResources",
+            "group": null
+        },
+        {
+            "name": "processReleaseUnitTestJavaRes",
+            "group": null
+        },
+        {
+            "name": "reportBuildArtifactsDebug",
+            "group": null
+        },
+        {
+            "name": "reportBuildArtifactsDynamicProfile",
+            "group": null
+        },
+        {
+            "name": "reportBuildArtifactsDynamicRelease",
+            "group": null
+        },
+        {
+            "name": "reportBuildArtifactsProfile",
+            "group": null
+        },
+        {
+            "name": "reportBuildArtifactsRelease",
+            "group": null
+        },
+        {
+            "name": "resolveConfigAttr",
+            "group": null
+        },
+        {
+            "name": "signingReport",
+            "group": "Android"
+        },
+        {
+            "name": "sourceSets",
+            "group": "Android"
+        },
+        {
+            "name": "splitsDiscoveryTaskDebug",
+            "group": null
+        },
+        {
+            "name": "splitsDiscoveryTaskDynamicProfile",
+            "group": null
+        },
+        {
+            "name": "splitsDiscoveryTaskDynamicRelease",
+            "group": null
+        },
+        {
+            "name": "splitsDiscoveryTaskProfile",
+            "group": null
+        },
+        {
+            "name": "splitsDiscoveryTaskRelease",
+            "group": null
+        },
+        {
+            "name": "test",
+            "group": "verification"
+        },
+        {
+            "name": "testDebugUnitTest",
+            "group": "verification"
+        },
+        {
+            "name": "testDynamicProfileUnitTest",
+            "group": "verification"
+        },
+        {
+            "name": "testDynamicReleaseUnitTest",
+            "group": "verification"
+        },
+        {
+            "name": "testProfileUnitTest",
+            "group": "verification"
+        },
+        {
+            "name": "testReleaseUnitTest",
+            "group": "verification"
+        },
+        {
+            "name": "transformClassesWithDesugarForDebug",
+            "group": null
+        },
+        {
+            "name": "transformClassesWithDesugarForDebugAndroidTest",
+            "group": null
+        },
+        {
+            "name": "transformClassesWithDesugarForDynamicProfile",
+            "group": null
+        },
+        {
+            "name": "transformClassesWithDesugarForDynamicRelease",
+            "group": null
+        },
+        {
+            "name": "transformClassesWithDesugarForProfile",
+            "group": null
+        },
+        {
+            "name": "transformClassesWithDesugarForRelease",
+            "group": null
+        },
+        {
+            "name": "transformClassesWithDexBuilderForDebug",
+            "group": null
+        },
+        {
+            "name": "transformClassesWithDexBuilderForDebugAndroidTest",
+            "group": null
+        },
+        {
+            "name": "transformClassesWithDexBuilderForDynamicProfile",
+            "group": null
+        },
+        {
+            "name": "transformClassesWithDexBuilderForDynamicRelease",
+            "group": null
+        },
+        {
+            "name": "transformClassesWithDexBuilderForProfile",
+            "group": null
+        },
+        {
+            "name": "transformClassesWithDexBuilderForRelease",
+            "group": null
+        },
+        {
+            "name": "transformClassesWithStackFramesFixerForDebug",
+            "group": null
+        },
+        {
+            "name": "transformClassesWithStackFramesFixerForDebugAndroidTest",
+            "group": null
+        },
+        {
+            "name": "transformClassesWithStackFramesFixerForDynamicProfile",
+            "group": null
+        },
+        {
+            "name": "transformClassesWithStackFramesFixerForDynamicRelease",
+            "group": null
+        },
+        {
+            "name": "transformClassesWithStackFramesFixerForProfile",
+            "group": null
+        },
+        {
+            "name": "transformClassesWithStackFramesFixerForRelease",
+            "group": null
+        },
+        {
+            "name": "transformDexArchiveWithDexMergerForDebug",
+            "group": null
+        },
+        {
+            "name": "transformDexArchiveWithDexMergerForDebugAndroidTest",
+            "group": null
+        },
+        {
+            "name": "transformDexArchiveWithDexMergerForDynamicProfile",
+            "group": null
+        },
+        {
+            "name": "transformDexArchiveWithDexMergerForDynamicRelease",
+            "group": null
+        },
+        {
+            "name": "transformDexArchiveWithDexMergerForProfile",
+            "group": null
+        },
+        {
+            "name": "transformDexArchiveWithDexMergerForRelease",
+            "group": null
+        },
+        {
+            "name": "transformDexArchiveWithExternalLibsDexMergerForDebug",
+            "group": null
+        },
+        {
+            "name": "transformDexArchiveWithExternalLibsDexMergerForDebugAndroidTest",
+            "group": null
+        },
+        {
+            "name": "transformDexArchiveWithExternalLibsDexMergerForDynamicProfile",
+            "group": null
+        },
+        {
+            "name": "transformDexArchiveWithExternalLibsDexMergerForDynamicRelease",
+            "group": null
+        },
+        {
+            "name": "transformDexArchiveWithExternalLibsDexMergerForProfile",
+            "group": null
+        },
+        {
+            "name": "transformDexArchiveWithExternalLibsDexMergerForRelease",
+            "group": null
+        },
+        {
+            "name": "transformNativeLibsWithMergeJniLibsForDebug",
+            "group": null
+        },
+        {
+            "name": "transformNativeLibsWithMergeJniLibsForDebugAndroidTest",
+            "group": null
+        },
+        {
+            "name": "transformNativeLibsWithMergeJniLibsForDynamicProfile",
+            "group": null
+        },
+        {
+            "name": "transformNativeLibsWithMergeJniLibsForDynamicRelease",
+            "group": null
+        },
+        {
+            "name": "transformNativeLibsWithMergeJniLibsForProfile",
+            "group": null
+        },
+        {
+            "name": "transformNativeLibsWithMergeJniLibsForRelease",
+            "group": null
+        },
+        {
+            "name": "transformResourcesWithMergeJavaResForDebug",
+            "group": null
+        },
+        {
+            "name": "transformResourcesWithMergeJavaResForDebugAndroidTest",
+            "group": null
+        },
+        {
+            "name": "transformResourcesWithMergeJavaResForDebugUnitTest",
+            "group": null
+        },
+        {
+            "name": "transformResourcesWithMergeJavaResForDynamicProfile",
+            "group": null
+        },
+        {
+            "name": "transformResourcesWithMergeJavaResForDynamicProfileUnitTest",
+            "group": null
+        },
+        {
+            "name": "transformResourcesWithMergeJavaResForDynamicRelease",
+            "group": null
+        },
+        {
+            "name": "transformResourcesWithMergeJavaResForDynamicReleaseUnitTest",
+            "group": null
+        },
+        {
+            "name": "transformResourcesWithMergeJavaResForProfile",
+            "group": null
+        },
+        {
+            "name": "transformResourcesWithMergeJavaResForProfileUnitTest",
+            "group": null
+        },
+        {
+            "name": "transformResourcesWithMergeJavaResForRelease",
+            "group": null
+        },
+        {
+            "name": "transformResourcesWithMergeJavaResForReleaseUnitTest",
+            "group": null
+        },
+        {
+            "name": "uninstallAll",
+            "group": "Install"
+        },
+        {
+            "name": "uninstallDebug",
+            "group": "Install"
+        },
+        {
+            "name": "uninstallDebugAndroidTest",
+            "group": "Install"
+        },
+        {
+            "name": "uninstallDynamicProfile",
+            "group": "Install"
+        },
+        {
+            "name": "uninstallDynamicRelease",
+            "group": "Install"
+        },
+        {
+            "name": "uninstallProfile",
+            "group": "Install"
+        },
+        {
+            "name": "uninstallRelease",
+            "group": "Install"
+        },
+        {
+            "name": "validateSigningDebug",
+            "group": null
+        },
+        {
+            "name": "validateSigningDebugAndroidTest",
+            "group": null
+        },
+        {
+            "name": "validateSigningDynamicProfile",
+            "group": null
+        },
+        {
+            "name": "validateSigningDynamicRelease",
+            "group": null
+        },
+        {
+            "name": "validateSigningProfile",
+            "group": null
+        },
+        {
+            "name": "validateSigningRelease",
+            "group": null
+        },
+        {
+            "name": "writeDebugApplicationId",
+            "group": null
+        },
+        {
+            "name": "writeDynamicProfileApplicationId",
+            "group": null
+        },
+        {
+            "name": "writeDynamicReleaseApplicationId",
+            "group": null
+        },
+        {
+            "name": "writeProfileApplicationId",
+            "group": null
+        },
+        {
+            "name": "writeReleaseApplicationId",
+            "group": null
+        }
+    ],
+    "name": "app",
+    "rootProjectDir": "/Users/builder/clone/android",
+    "projectDir": "/Users/builder/clone/android/app",
+    "buildFile": "/Users/builder/clone/android/app/build.gradle",
+    "unitTestResultsDir": null,
+    "uiTestResultsDir": "/Users/builder/clone/build/app/outputs/androidTest-results",
+    "buildDir": "/Users/builder/clone/build/app",
+    "uiTestCommand": null,
+    "compileSdkVersion": "android-27",
+    "sourceSets": {
+        "unitTest": {
+            "available": false
+        },
+        "androidTest": {
+            "available": false
+        },
+        "instrumentTest": {
+            "available": false
+        }
+    },
+    "productFlavors": {
+        "main": {
+            "manifestPath": "/Users/builder/clone/android/app/src/main/AndroidManifest.xml",
+            "minSdkVersion": {
+                "codename": null,
+                "apiLevel": 16,
+                "apiString": "16"
+            },
+            "targetSdkVersion": {
+                "codename": null,
+                "apiLevel": 27,
+                "apiString": "27"
+            },
+            "versionCode": 1,
+            "versionName": "1.0"
+        }
+    },
+    "subprojects": [
+        
+    ],
+    "applicationVariants": [
+        {
+            "name": "debug",
+            "assembleTaskName": "assembleDebug",
+            "testTaskName": "assembleDebugAndroidTest",
+            "signingReady": true,
+            "flavorName": "",
+            "testOutputs": [
+                "/Users/builder/clone/build/app/outputs/apk/androidTest/debug/app-debug-androidTest.apk"
+            ],
+            "buildOutputs": [
+                "/Users/builder/clone/build/app/outputs/apk/debug/app-debug.apk"
+            ]
+        },
+        {
+            "name": "dynamicProfile",
+            "assembleTaskName": "assembleDynamicProfile",
+            "testTaskName": null,
+            "signingReady": true,
+            "flavorName": "",
+            "testOutputs": [
+                
+            ],
+            "buildOutputs": [
+                "/Users/builder/clone/build/app/outputs/apk/dynamicProfile/app-dynamicProfile.apk"
+            ]
+        },
+        {
+            "name": "release",
+            "assembleTaskName": "assembleRelease",
+            "testTaskName": null,
+            "signingReady": true,
+            "flavorName": "",
+            "testOutputs": [
+                
+            ],
+            "buildOutputs": [
+                "/Users/builder/clone/build/app/outputs/apk/release/app-release.apk"
+            ]
+        },
+        {
+            "name": "profile",
+            "assembleTaskName": "assembleProfile",
+            "testTaskName": null,
+            "signingReady": true,
+            "flavorName": "",
+            "testOutputs": [
+                
+            ],
+            "buildOutputs": [
+                "/Users/builder/clone/build/app/outputs/apk/profile/app-profile.apk"
+            ]
+        },
+        {
+            "name": "dynamicRelease",
+            "assembleTaskName": "assembleDynamicRelease",
+            "testTaskName": null,
+            "signingReady": true,
+            "flavorName": "",
+            "testOutputs": [
+                
+            ],
+            "buildOutputs": [
+                "/Users/builder/clone/build/app/outputs/apk/dynamicRelease/app-dynamicRelease.apk"
+            ]
+        }
+    ]
+}
