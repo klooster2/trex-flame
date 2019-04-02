@@ -984,7 +984,7 @@ echo "SUCCESS" &gt; "${SCRIPT_OUTPUT_FILE_0}"
 					<string>$(PROJECT_DIR)/Flutter</string>
 				</array>
 				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.example.trex</string>
+				<string>com.nc.trex2</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
 				<key>VERSIONING_SYSTEM</key>
