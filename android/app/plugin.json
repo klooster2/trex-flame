@@ -1273,6 +1273,26 @@
             "group": null
         },
         {
+            "name": "transformNativeLibsWithStripDebugSymbolForDebug",
+            "group": null
+        },
+        {
+            "name": "transformNativeLibsWithStripDebugSymbolForDynamicProfile",
+            "group": null
+        },
+        {
+            "name": "transformNativeLibsWithStripDebugSymbolForDynamicRelease",
+            "group": null
+        },
+        {
+            "name": "transformNativeLibsWithStripDebugSymbolForProfile",
+            "group": null
+        },
+        {
+            "name": "transformNativeLibsWithStripDebugSymbolForRelease",
+            "group": null
+        },
+        {
             "name": "transformResourcesWithMergeJavaResForDebug",
             "group": null
         },
